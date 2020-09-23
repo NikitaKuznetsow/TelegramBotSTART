@@ -10,32 +10,32 @@ async def update_board(message: types.Message):
     values = chech_table()
     await message.answer('Расписание обновлено')
 
-@dp.message_handler(text='Сегодня')
+@dp.message_handler(text='Today')
 async def bot_echo(message: types.Message):
     stroka = ''
     number_week_day = datetime.datetime.today().isoweekday()
     for elem in values['values'][number_week_day - 1][1:]:
         stroka += elem + '\n'
-    await message.answer(f'Сегодня ' + values['values'][number_week_day - 1][0].lower() + ' Никита!' + '\n')
+    await message.answer(f'Today is ' + values['values'][number_week_day - 1][0] + ', Nikita!' + '\n')
     time.sleep(0.5)
-    await message.answer(f'Твой список дел на сегодня:')
+    await message.answer(f'Your plan for today is:')
     await message.answer(stroka)
 
 
-@dp.message_handler(text=['Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота', 'Воскресенье'])
+@dp.message_handler(text=['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'])
 async def days_week(message: types.Message):
-    all_day = ['Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота', 'Воскресенье']
+    all_day = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
     number_day = all_day.index(message.text)
-    all_day_gramm = ['Понедельник', 'Вторник', 'Среду', 'Четверг', 'Пятницу', 'Субботу', 'Воскресенье']
+    all_day_gramm = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
     stroka_del = ''
     for elem in values['values'][number_day][1:]:
         stroka_del += elem + '\n'
-    await message.answer(f'Твой список дел на ' + all_day_gramm[number_day].lower() + ':')
+    await message.answer(f'Your plan for ' + all_day_gramm[number_day] + ' is:')
     time.sleep(0.5)
     await message.answer(stroka_del)
 
 
-@dp.message_handler(text='Неделя')
+@dp.message_handler(text='Week')
 async def week(message: types.Message):
     all_days = ''
     for i in range(7):

@@ -20,8 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac3a73ba-5047-4e4c-ab25-b236fbb55a81" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/handlers/users/buttons.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/default/menu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handlers/users/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/users/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handlers/users/help.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/users/help.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/handlers/users/timeboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/users/timeboard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards/default/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/default/__init__.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +37,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Python Unit Test" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -40,6 +46,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1g9RhTaK0k5S0ZV4I1UVx3uEsVH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -83,17 +90,17 @@
       <method v="2" />
     </configuration>
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="TelegramBotSTART" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="/usr/bin/python3.7" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -200,26 +207,31 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="540" y="265" width="588" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597529165336">
-      <screen x="70" y="27" width="1530" height="873" />
+    <state x="541" y="265" width="586" height="410" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600845029368">
+      <screen x="72" y="27" width="1528" height="873" />
     </state>
     <state x="540" y="265" width="588" height="403" key="#com.intellij.fileTypes.FileTypeChooser/70.27.1530.873@70.27.1530.873" timestamp="1597529165336" />
-    <state width="753" height="216" key="GridCell.Tab.0.bottom" timestamp="1597615357903">
-      <screen x="70" y="27" width="1530" height="873" />
+    <state x="541" y="265" width="586" height="410" key="#com.intellij.fileTypes.FileTypeChooser/72.27.1528.873@72.27.1528.873" timestamp="1600845029368" />
+    <state width="752" height="216" key="GridCell.Tab.0.bottom" timestamp="1600847370973">
+      <screen x="72" y="27" width="1528" height="873" />
     </state>
     <state width="753" height="216" key="GridCell.Tab.0.bottom/70.27.1530.873@70.27.1530.873" timestamp="1597615357903" />
-    <state width="753" height="216" key="GridCell.Tab.0.center" timestamp="1597615357903">
-      <screen x="70" y="27" width="1530" height="873" />
+    <state width="752" height="216" key="GridCell.Tab.0.bottom/72.27.1528.873@72.27.1528.873" timestamp="1600847370973" />
+    <state width="752" height="216" key="GridCell.Tab.0.center" timestamp="1600847370971">
+      <screen x="72" y="27" width="1528" height="873" />
     </state>
     <state width="753" height="216" key="GridCell.Tab.0.center/70.27.1530.873@70.27.1530.873" timestamp="1597615357903" />
-    <state width="753" height="216" key="GridCell.Tab.0.left" timestamp="1597615357902">
-      <screen x="70" y="27" width="1530" height="873" />
+    <state width="752" height="216" key="GridCell.Tab.0.center/72.27.1528.873@72.27.1528.873" timestamp="1600847370971" />
+    <state width="752" height="216" key="GridCell.Tab.0.left" timestamp="1600847370970">
+      <screen x="72" y="27" width="1528" height="873" />
     </state>
     <state width="753" height="216" key="GridCell.Tab.0.left/70.27.1530.873@70.27.1530.873" timestamp="1597615357902" />
-    <state width="753" height="216" key="GridCell.Tab.0.right" timestamp="1597615357903">
-      <screen x="70" y="27" width="1530" height="873" />
+    <state width="752" height="216" key="GridCell.Tab.0.left/72.27.1528.873@72.27.1528.873" timestamp="1600847370970" />
+    <state width="752" height="216" key="GridCell.Tab.0.right" timestamp="1600847370972">
+      <screen x="72" y="27" width="1528" height="873" />
     </state>
     <state width="753" height="216" key="GridCell.Tab.0.right/70.27.1530.873@70.27.1530.873" timestamp="1597615357903" />
+    <state width="752" height="216" key="GridCell.Tab.0.right/72.27.1528.873@72.27.1528.873" timestamp="1600847370972" />
     <state x="70" y="163" width="1022" height="737" key="SettingsEditor" timestamp="1597529517338">
       <screen x="70" y="27" width="1530" height="873" />
     </state>
