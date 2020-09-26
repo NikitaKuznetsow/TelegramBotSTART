@@ -29,3 +29,5 @@ day_change_timetable = ReplyKeyboardMarkup([
         KeyboardButton(text='Sunday')
     ]
 ],resize_keyboard=True)
+
+timetable = ReplyKeyboardMarkup([['Timetable']],resize_keyboard=True)
