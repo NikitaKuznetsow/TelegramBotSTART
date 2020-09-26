@@ -45,3 +45,5 @@ async def week(message: types.Message):
 
         await message.answer(all_days)
         all_days = ''
+
+
